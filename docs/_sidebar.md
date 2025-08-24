@@ -1,2 +1,3 @@
 * [Home](/)
-* [Guide](guide.md)
+* [Themes](themesguide.md)
+* [Submit themes/extensions](submit.md)
