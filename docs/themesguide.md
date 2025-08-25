@@ -118,7 +118,7 @@ Keep naming consistent so your app can map them correctly.
 
 ## 🔹 Notes
 - For now, only `manifest.json` + `colors.json` are required.  
-- You can expand the format later with `fonts/`, `drawables/`, or `sounds/`.  
+- i will soon expand the format later with `fonts/`, `drawables/`, or `sounds/`.  
 - `.xtheme` is just a **zip file** renamed with `.xtheme`.  
 
 ---
