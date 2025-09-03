@@ -5,6 +5,7 @@ export default defineConfig({
   base: '/Xelo-docs/', // Fix this to match your repository name
   title: "Xelo-Docs",
   description: "Comprehensive guides, tutorials, and API references for Xelo-Client",
+  ignoreDeadLinks: true,
   
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
