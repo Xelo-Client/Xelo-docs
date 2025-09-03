@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/Xelo-Client.github.io/', // Update this to match your actual repository name
+  base: '/Xelo-docs/', // Fix this to match your repository name
   title: "Xelo-Docs",
   description: "Comprehensive guides, tutorials, and API references for Xelo-Client",
   
@@ -11,8 +11,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Getting Started', link: '/guides/' },
-      { text: 'Themes Guide', link: '/themes/' },
-      { text: 'Plugin API', link: '/plugins/plugin-api' }
+      {text: 'Themes API', link: '/guides/guide' }
     ],
 
     sidebar: [
@@ -20,39 +19,24 @@ export default defineConfig({
         text: 'Getting Started',
         items: [
           { text: 'Introduction', link: '/guides/' },
-          { text: 'What is Xelo Docs?', link: '/guides/guide' }
+          { text: 'Getting Started Guide', link: '/guides/README' }
         ]
       },
       {
-        text: 'Themes',
+        text: 'Development',
         items: [
-          { text: 'Theme Basics', link: '/themes/basics' },
-          { text: 'Creating Custom Themes', link: '/themes/custom' }
-        ]
-      },
-      {
-        text: 'Extensions',
-        items: [
-          { text: 'Plugin API', link: '/plugins/plugin-api' },
-          { text: 'Extension Development', link: '/extensions/development' }
-        ]
-      },
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Themes API', link: '/guides/guide' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Xed-Editor/Xed-Editor' }
+      { icon: 'github', link: 'https://github.com/Xelo-Client/Xelo-Client' }
     ],
 
     footer: {
       message: 'Documentation for Xelo Client customization and extension development.',
-      copyright: 'Copyright © 2024 Xelo Team'
+      copyright: 'Copyright © 2025 Xelo Team'
     },
 
     search: {

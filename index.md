@@ -6,18 +6,15 @@ hero:
   name: "Xelo-Docs"
   text: "Customization Hub"
   tagline: "Comprehensive guides, tutorials, and API references for Xelo-Client"
-  image:
-    src: /logo.svg
-    alt: Xelo Logo
   actions:
     - theme: brand
       text: Get Started
-      link: /guides/README
+      link: /guides/
     - theme: alt
       text: View on GitHub
       link: https://github.com/Xelo-Client/Xelo-Client
     - theme: alt
-      text: Themes Guide
+      text: Plugin API
       link: /guides/guide
 
 features:
@@ -40,9 +37,8 @@ features:
 Get started with customizing Xelo Client in just a few steps:
 
 1. **[Read the Introduction](/guides/)** - Learn what Xelo Docs is all about
-2. **[Create Your First Theme](/themes/basics)** - Start with basic theme customization
-3. **[Build Extensions](/plugins/plugin-api)** - Add new functionality with extensions
-4. **[Join the Community](https://discord.gg/8SGCP6nK69)** - Get help and share your creations
+2. **[Explore the Plugin API](/plugins/plugin-api)** - Add new functionality with extensions
+3. **[Join the Community](https://discord.gg/8SGCP6nK69)** - Get help and share your creations
 
 ## What You Can Build
 
