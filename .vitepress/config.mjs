@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/Xelo-docs/', // Fix this to match your repository name
+  base: '/', // Fix this to match your repository name
   title: "Xelo-Docs",
   description: "Comprehensive guides, tutorials, and API references for Xelo-Client",
   ignoreDeadLinks: true,
