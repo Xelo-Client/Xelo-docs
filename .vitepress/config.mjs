@@ -12,7 +12,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Getting Started', link: '/guides/' },
-      {text: 'Themes API', link: '/guides/guide' }
+      {text: 'Themes API', link: '/guides/themes' }
     ],
 
     sidebar: [
@@ -20,13 +20,20 @@ export default defineConfig({
         text: 'Getting Started',
         items: [
           { text: 'Introduction', link: '/guides/' },
-          { text: 'Getting Started Guide', link: '/guides/README' }
+          { text: 'Getting Started', link: '/guides/themes' }
         ]
       },
       {
         text: 'Development',
         items: [
-          { text: 'Themes API', link: '/guides/guide' }
+          { text: 'Themes metadata', link: '/guides/guide' },
+          { text: 'themes colors', link: 'guides/colors'}
+        ]
+      },
+      {
+        text: 'Publishing',
+        items: [
+          { text: 'Publish your themes', link: '/publishing/publish' }
         ]
       }
     ],

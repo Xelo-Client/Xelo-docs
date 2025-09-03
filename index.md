@@ -14,8 +14,8 @@ hero:
       text: View on GitHub
       link: https://github.com/Xelo-Client/Xelo-Client
     - theme: alt
-      text: Plugin API
-      link: /guides/guide
+      text: Themes API
+      link: /guides/themes
 
 features:
   - title: 🎨 Material You (Material 3)
@@ -37,8 +37,8 @@ features:
 Get started with customizing Xelo Client in just a few steps:
 
 1. **[Read the Introduction](/guides/)** - Learn what Xelo Docs is all about
-2. **[Explore the Plugin API](/plugins/plugin-api)** - Add new functionality with extensions
-3. **[Join the Community](https://discord.gg/8SGCP6nK69)** - Get help and share your creations
+2. **[Explore the themes API](/guides/guide)** - Add new ui designs with themes
+3. **[Join the Community](https://dsc.gg/xelo)** - Get help and share your creations
 
 ## What You Can Build
 

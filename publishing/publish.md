@@ -1,0 +1,2 @@
+# Submit your creations!
+> to submit your creations you can create a post in the themes channel of our [discord](dsc.gg/xelo). then your themes would be checked by the staffs and then added to our [website](https://xelo-client.github.io/Themes-browser/)
